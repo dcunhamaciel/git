@@ -15,3 +15,7 @@ git log = exibe o log dos commits
 	- git log -p -2 (exibe o que foi alterado nos últimos 2 commits)
 	- git log -p --stat (exibe as estatísticas dos commits)
 	- git log --oneline (exibe o log em apenas uma linha)
+
+git reset = desfaz um commit
+	- git reset HEAD (volta o último commit para a unstaging area)
+	- git reset HEAD nome_arquivo (volta o arquivo informado para a unstaging area)
