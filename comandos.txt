@@ -41,3 +41,6 @@ git merge = faz o merge de um branch
 
 git rebase = move os commits de um branch
 	- git rebase nome_branch (similar ao merge, mas não faz um commit do merge, reorganiza os commits de acordo com sua sequência)
+
+git clone = clona um repositório
+	- git clone url_repositorio diretorio (o diretório é opcional, se não informar será criado com o mesmo nome do repositório - clona apenas o branch master)
