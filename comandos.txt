@@ -32,9 +32,11 @@ git checkout = volta uma versão
 	- git checkout hash_commit (volta a versão do hash informado)
 	- git checkout nome_branch (muda para o branch informado)
 	- git checkout -b nome_branch (cria um novo branch)
+	- git checkout -b nome_branch origin/nome_branch_remoto ("clona" um novo branch a partir de um branch remoto)
 
 git branch = exibe o branch atual
-	- git branch
+	- git branch (exibe os branchs locais)
+	- git branch -a (exibe os branchs locais e remotos)
 
 git merge = faz o merge de um branch
 	- git merge nome_branch (faz o merge do branch informado com o branch selecionado no momento - efetua commit automático)
