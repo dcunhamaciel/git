@@ -29,4 +29,7 @@ git reset = desfaz um commit
 
 git checkout = volta uma versão
 	- git checkout hash_commit (volta a versão do hash informado)
-	- git checkout master (volta para a versão atual do repositório)
+	- git checkout nome_branch (muda para o branch informado)
+	- git checkout -b nome_branch (cria um novo branch)
+
+git branch = exibe o branch atual
