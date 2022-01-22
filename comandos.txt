@@ -23,7 +23,9 @@ git log = exibe o log dos commits
 git reset = desfaz um commit
 	- git reset HEAD (volta todos os arquivos da staging area para a unstaging area)
 	- git reset HEAD nome_arquivo (volta o arquivo informado da staging area para a unstaging area)
-	- git reset HEAD~1 (volta 1 commit para a staging area - 1 representa a quantidade de commits desejados)
+	- git reset HEAD~1 (volta 1 commit para a unstaging area - 1 representa a quantidade de commits desejados)
+	- git reset HEAD~1 --soft (volta 1 commit para a staging area - 1 representa a quantidade de commits desejados)
+	- git reset HEAD~1 --hard (volta 1 commit - 1 representa a quantidade de commits desejados)
 
 git checkout = volta uma versão
 	- git checkout hash_commit (volta a versão do hash informado)
