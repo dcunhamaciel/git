@@ -7,7 +7,7 @@ git add = adiciona arquivos na staging area
 git commit = comita os arquivo(s) que estão na staging area
 	- git commit (abre o editor padrão para informar a mensagem)
 	- git commit -m "Mensagem"
-	- git commit -a (adiciona e comita ao mesmo tempo)
+	- git commit -a (adiciona e comita ao mesmo tempo - somente arquivos já versionados anteriormente)
 
 git log = exibe o log dos commits
 	- git log
