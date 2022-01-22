@@ -1,4 +1,5 @@
 git init = inicializa diretório git
+	- git init
 
 git add = adiciona arquivos na staging area
 	- git add nome_arquivo
@@ -33,3 +34,7 @@ git checkout = volta uma versão
 	- git checkout -b nome_branch (cria um novo branch)
 
 git branch = exibe o branch atual
+	- git branch
+
+git merge = faz o merge de um branch
+	- git merge nome_branch (faz o merge do branch informado com o branch selecionado no momento - efetua commit automático)
