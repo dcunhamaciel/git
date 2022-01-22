@@ -46,3 +46,8 @@ git rebase = move os commits de um branch
 
 git clone = clona um repositório
 	- git clone url_repositorio diretorio (o diretório é opcional, se não informar será criado com o mesmo nome do repositório - clona apenas o branch master)
+
+git tag = cria uma tag no repositório
+	= git tag 0.0.0 (cria uma tag onde 0.0.0 é o número da versão)
+	= git tag -l (lista todas as tags)
+	= git push origin master --tags (faz o push da tag criada)
