@@ -38,3 +38,6 @@ git branch = exibe o branch atual
 
 git merge = faz o merge de um branch
 	- git merge nome_branch (faz o merge do branch informado com o branch selecionado no momento - efetua commit automático)
+
+git rebase = move os commits de um branch
+	- git rebase nome_branch (similar ao merge, mas não faz um commit do merge, reorganiza os commits de acordo com sua sequência)
