@@ -1,8 +1,12 @@
 git init = inicializa diretório git
 
 git add = adiciona arquivos na staging area
-	- git add "nome_arquivo"
+	- git add nome_arquivo
 	- git add . (adiciona todos)
+
+git restore = descarta alterações
+	- git restore nome_arquivo
+	- git restore . (descarta todos)
 
 git commit = comita os arquivo(s) que estão na staging area
 	- git commit (abre o editor padrão para informar a mensagem)
@@ -17,8 +21,8 @@ git log = exibe o log dos commits
 	- git log --oneline (exibe o log em apenas uma linha)
 
 git reset = desfaz um commit
-	- git reset HEAD (volta o último commit para a unstaging area)
-	- git reset HEAD nome_arquivo (volta o arquivo informado para a unstaging area)
+	- git reset HEAD (volta todos os arquivos da staging area para a unstaging area)
+	- git reset HEAD nome_arquivo (volta o arquivo informado da staging area para a unstaging area)
 	- git reset HEAD~1 (volta 1 commit para a staging area - 1 representa a quantidade de commits desejados)
 
 git checkout = volta uma versão
